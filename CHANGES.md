@@ -5,6 +5,19 @@ History
 
 * [populate me]
 
+## Version 0.2.5+tolteck.2
+
+Revert these two commits from the version Version 0.2.5+tolteck.1
+
+* Close opened page if page initialization failed
+* Catch CancelledError in CDPSession.send()
+
+## Version 0.2.5+tolteck.1
+
+* Close opened page if page initialization failed
+* Catch CancelledError in CDPSession.send()
+* Clean up coroutine Browser._targetCreated()
+
 ## Version 0.2.5
 
 * Match package version and \_\_version__ (🤦‍♂️)

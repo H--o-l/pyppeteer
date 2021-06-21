@@ -41,7 +41,7 @@ from pyppeteer.launcher import connect, launch, executablePath  # noqa: E402
 from pyppeteer.launcher import defaultArgs  # noqa: E402
 
 version = __version__
-version_info = tuple(int(i) for i in version.split('.'))
+version_info = tuple(int(i) for i in version.split('+')[0].split('.'))
 
 __all__ = [
     'connect',
